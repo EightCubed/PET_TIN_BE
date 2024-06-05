@@ -1,0 +1,254 @@
+{"startTime":"2024-06-05T09:08:38.538Z","categoryName":"app","level":"INFO","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:08:38.723Z","categoryName":"app","level":"INFO","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:09:22.680Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:09:22.682Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:09:23.448Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:09:50.257Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:09:50.259Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:09:50.777Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:10:00.318Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:10:00.319Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:10:00.485Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:10:00.487Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:10:01.083Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:12:17.279Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:12:17.463Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:15.470Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:14:15.472Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:14:15.746Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:14:15.748Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:14:16.745Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:14:19.513Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:19.699Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:31.125Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:31.304Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:57.689Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:14:57.883Z","categoryName":"app","level":"ERROR","data":"\n404 Error"}
+{"startTime":"2024-06-05T09:30:13.468Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:30:13.469Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:30:14.209Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:30:53.079Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:30:53.081Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:30:53.639Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:31:49.202Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:31:49.203Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:31:49.918Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:31:51.823Z","categoryName":"app","level":"INFO","data":"\nList Pets Handler called"}
+{"startTime":"2024-06-05T09:33:42.118Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:33:42.119Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:33:43.140Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:33:53.005Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:33:53.007Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:33:53.525Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:34:16.130Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:34:16.131Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:34:16.629Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T09:34:29.517Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T09:34:29.518Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T09:34:30.018Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:41:38.005Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:41:38.007Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:41:38.843Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:43:13.229Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:43:13.231Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:43:13.985Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:43:43.024Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:43:43.026Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:43:43.559Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:45:05.256Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:45:05.257Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:45:05.996Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:45:08.956Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:45:08.958Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:45:09.396Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:45:37.055Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:45:37.057Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:45:38.538Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:45:39.791Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:45:39.793Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:45:41.306Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:52:52.844Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:52:52.846Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:52:54.312Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:52:55.322Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:52:55.323Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:52:56.792Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:53:03.451Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:53:03.453Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:53:04.949Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:53:12.280Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:53:12.282Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:53:13.715Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:53:53.786Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:53:53.788Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:53:55.291Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:54:19.957Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:54:19.959Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:54:21.469Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:54:22.382Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:54:22.384Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:54:22.866Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:54:25.728Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:54:25.730Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:54:27.256Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:55:14.458Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:55:14.460Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:55:16.069Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:55:16.071Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:55:17.605Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:55:39.484Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:55:39.485Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:55:40.984Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:55:49.913Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:55:49.915Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:55:50.377Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T16:56:51.583Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T16:56:51.585Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T16:56:53.103Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:00:33.474Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:00:33.476Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:00:34.991Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:00:52.650Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:00:52.652Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:00:54.142Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:04:26.692Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:04:26.694Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:04:27.211Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:06:03.438Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:06:03.440Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:06:04.316Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:07:04.261Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:04.263Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:05.676Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:05.677Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:07.239Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:07:09.626Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:09.628Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:11.143Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:07:24.404Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:24.405Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:25.906Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:07:31.967Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:31.969Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:33.453Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:07:50.263Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:50.265Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:51.885Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:07:51.886Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:07:53.419Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:08:00.316Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:08:00.318Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:08:01.821Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:08:11.156Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:08:11.157Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:08:12.679Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:08:25.468Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:08:25.470Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:08:26.938Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:08:30.865Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: EmailId: Path `EmailId` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    EmailId: ValidatorError: Path `EmailId` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'EmailId',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"EmailId":{"name":"ValidatorError","message":"Path `EmailId` is required.","properties":{"message":"Path `EmailId` is required.","type":"required","path":"EmailId"},"kind":"required","path":"EmailId"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:08:36.837Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:08:36.839Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:08:38.325Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:09:07.362Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:09:07.364Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:09:07.889Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:09:08.489Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:09:08.491Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:09:08.960Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:09:12.084Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: EmailId: Path `EmailId` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    EmailId: ValidatorError: Path `EmailId` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'EmailId',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"EmailId":{"name":"ValidatorError","message":"Path `EmailId` is required.","properties":{"message":"Path `EmailId` is required.","type":"required","path":"EmailId"},"kind":"required","path":"EmailId"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:10:17.648Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:10:17.649Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:10:19.187Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:10:21.181Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: imageUrl: Path `imageUrl` is required., petName: Path `petName` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    imageUrl: ValidatorError: Path `imageUrl` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'imageUrl',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    },\n    petName: ValidatorError: Path `petName` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'petName',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"imageUrl":{"name":"ValidatorError","message":"Path `imageUrl` is required.","properties":{"message":"Path `imageUrl` is required.","type":"required","path":"imageUrl"},"kind":"required","path":"imageUrl"},"petName":{"name":"ValidatorError","message":"Path `petName` is required.","properties":{"message":"Path `petName` is required.","type":"required","path":"petName"},"kind":"required","path":"petName"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:10:48.067Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:10:48.068Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:10:49.566Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:10:50.426Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: imageUrl: Path `imageUrl` is required., petName: Path `petName` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    imageUrl: ValidatorError: Path `imageUrl` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'imageUrl',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    },\n    petName: ValidatorError: Path `petName` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'petName',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"imageUrl":{"name":"ValidatorError","message":"Path `imageUrl` is required.","properties":{"message":"Path `imageUrl` is required.","type":"required","path":"imageUrl"},"kind":"required","path":"imageUrl"},"petName":{"name":"ValidatorError","message":"Path `petName` is required.","properties":{"message":"Path `petName` is required.","type":"required","path":"petName"},"kind":"required","path":"petName"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:11:00.436Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: imageUrl: Path `imageUrl` is required., petName: Path `petName` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    imageUrl: ValidatorError: Path `imageUrl` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'imageUrl',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    },\n    petName: ValidatorError: Path `petName` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'petName',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"imageUrl":{"name":"ValidatorError","message":"Path `imageUrl` is required.","properties":{"message":"Path `imageUrl` is required.","type":"required","path":"imageUrl"},"kind":"required","path":"imageUrl"},"petName":{"name":"ValidatorError","message":"Path `petName` is required.","properties":{"message":"Path `petName` is required.","type":"required","path":"petName"},"kind":"required","path":"petName"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:11:34.691Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:11:34.693Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:11:37.283Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:11:39.081Z","categoryName":"app","level":"ERROR","data":"Error adding pet: Error: Pet validation failed: imageUrl: Path `imageUrl` is required., petName: Path `petName` is required.\n    at ValidationError.inspect (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/error/validation.js:50:26)\n    at formatValue (node:internal/util/inspect:805:19)\n    at inspect (node:internal/util/inspect:364:10)\n    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)\n    at Object.format (node:internal/util/inspect:2136:10)\n    at formatLogData (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:25:15)\n    at formatter (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:77:19)\n    at layout (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js-json-layout/lib/jsonLayout.js:108:33)\n    at app (/Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/appenders/file.js:98:23)\n    at /Users/rockon/pet-tin/pet-tin-BE/node_modules/log4js/lib/log4js.js:43:5 {\n  errors: {\n    imageUrl: ValidatorError: Path `imageUrl` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'imageUrl',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    },\n    petName: ValidatorError: Path `petName` is required.\n        at validate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1385:13)\n        at SchemaType.doValidate (/Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/schemaType.js:1369:7)\n        at /Users/rockon/pet-tin/pet-tin-BE/node_modules/mongoose/lib/document.js:3060:18\n        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {\n      properties: [Object],\n      kind: 'required',\n      path: 'petName',\n      value: undefined,\n      reason: undefined,\n      [Symbol(mongoose#validatorError)]: true\n    }\n  },\n  _message: 'Pet validation failed'\n}","errors":{"imageUrl":{"name":"ValidatorError","message":"Path `imageUrl` is required.","properties":{"message":"Path `imageUrl` is required.","type":"required","path":"imageUrl"},"kind":"required","path":"imageUrl"},"petName":{"name":"ValidatorError","message":"Path `petName` is required.","properties":{"message":"Path `petName` is required.","type":"required","path":"petName"},"kind":"required","path":"petName"}},"_message":"Pet validation failed"}
+{"startTime":"2024-06-05T17:11:57.319Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:11:57.321Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:11:58.762Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:12:02.249Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:12:02.250Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:12:03.763Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:12:04.523Z","categoryName":"app","level":"INFO","data":"New pet added successfully","$__":{"activePaths":{"paths":{"EmailId":"require","Breed":"require","Species":"require","ImageUrl":"require","Location":"require","Owner":"require","Gender":"require","Age":"require","PetName":"require"},"states":{"require":{"EmailId":true,"Breed":true,"Species":true,"ImageUrl":true,"Location":true,"Owner":true,"Gender":true,"Age":true,"PetName":true},"default":{},"modify":{}}},"op":null,"saving":null,"$versionError":null,"saveOptions":null,"validating":null,"cachedRequired":{},"backup":{"activePaths":{"modify":{"PetName":true,"Age":true,"Gender":true,"ImageUrl":true,"Species":true,"Breed":true,"EmailId":true},"default":{"_id":true,"Owner._id":true,"Location._id":true}},"validationError":null},"inserting":true,"savedState":{}},"_doc":{"PetName":"Goldy1","Age":3,"Gender":"Male","Owner":{"First":"Sushyam","Last":"Yadav","Age":23,"Gender":"Male","_id":"66609c6432b46f3631f302fb"},"Location":{"City":"Bangalore","State":"Karnataka","Country":"India","_id":"66609c6432b46f3631f302fc"},"ImageUrl":"https://www.vets4pets.com/siteassets/species/dog/puppy/labrador-puppy-happy.jpg?w=585&scale=down","Species":"Dog","Breed":"Golden Retriever","EmailId":"abc@gmail.com","_id":"66609c6432b46f3631f302fa","__v":0},"$isNew":false}
+{"startTime":"2024-06-05T17:13:04.266Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:13:04.268Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:13:05.854Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:14:08.820Z","categoryName":"app","level":"INFO","data":"New pet added successfully","$__":{"activePaths":{"paths":{"EmailId":"require","Breed":"require","Species":"require","ImageUrl":"require","Location":"require","Owner":"require","Gender":"require","Age":"require","PetName":"require"},"states":{"require":{"EmailId":true,"Breed":true,"Species":true,"ImageUrl":true,"Location":true,"Owner":true,"Gender":true,"Age":true,"PetName":true},"default":{},"modify":{}}},"op":null,"saving":null,"$versionError":null,"saveOptions":null,"validating":null,"cachedRequired":{},"backup":{"activePaths":{"modify":{"PetName":true,"Age":true,"Gender":true,"ImageUrl":true,"Species":true,"Breed":true,"EmailId":true},"default":{"_id":true,"Owner._id":true,"Location._id":true}},"validationError":null},"inserting":true,"savedState":{}},"_doc":{"PetName":"Goldy1","Age":3,"Gender":"Male","Owner":{"First":"Sushyam","Last":"Yadav","Age":23,"Gender":"Male","_id":"66609ce0a1399c5c797ea322"},"Location":{"City":"Bangalore","State":"Karnataka","Country":"India","_id":"66609ce0a1399c5c797ea323"},"ImageUrl":"https://www.vets4pets.com/siteassets/species/dog/puppy/labrador-puppy-happy.jpg?w=585&scale=down","Species":"Dog","Breed":"Golden Retriever","EmailId":"abc@gmail.com","_id":"66609ce0a1399c5c797ea321","__v":0},"$isNew":false}
+{"startTime":"2024-06-05T17:26:04.205Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:26:04.207Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:26:06.085Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:30:39.918Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:30:39.921Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:30:40.783Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:30:43.024Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:30:43.026Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:30:44.857Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:30:47.181Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:30:47.183Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:30:49.036Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:32:37.945Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:32:37.947Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:32:39.674Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:33:57.601Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:33:57.604Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:33:59.406Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:34:07.772Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:34:07.774Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:34:08.522Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:35:00.705Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:35:00.707Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:35:02.406Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:35:10.493Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:35:10.495Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:35:12.331Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:35:19.569Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:35:19.571Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:35:20.456Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:35:25.671Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:35:25.673Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:35:27.418Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:36:06.284Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:36:06.286Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:36:07.956Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:37:25.133Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:37:25.135Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:37:26.714Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:37:41.979Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:37:41.981Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:37:43.607Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:37:53.237Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:37:53.238Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:37:54.749Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:38:09.917Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:38:09.918Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:38:10.438Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:38:18.354Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:38:18.356Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:38:19.883Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:39:42.694Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:39:42.696Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:39:44.209Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:53:14.789Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:53:14.791Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:53:16.321Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:53:22.784Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:53:22.786Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:53:24.254Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:53:33.251Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:53:33.252Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:53:34.766Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:53:39.507Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:53:39.508Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:53:41.258Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T17:53:54.861Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T17:53:54.863Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T17:53:56.374Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-05T18:09:56.233Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-05T18:09:56.235Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-05T18:09:56.808Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
