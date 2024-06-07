@@ -10,6 +10,16 @@ const client = new MongoClient(process.env.MONGODB_URI, {
   },
 });
 
+const BEARER_TOKEN_EXPIRES = "10s";
+const REFRESH_TOKEN_EXPIRES = "10s";
+
+const BEARER_TOKEN_EXPIRE_TIME = 10 * 1000;
+const REFRESH_TOKEN_EXPIRE_TIME = 10 * 1000;
+
 module.exports = {
   client,
+  BEARER_TOKEN_EXPIRES,
+  REFRESH_TOKEN_EXPIRES,
+  BEARER_TOKEN_EXPIRE_TIME,
+  REFRESH_TOKEN_EXPIRE_TIME,
 };

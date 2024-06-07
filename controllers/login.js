@@ -30,7 +30,7 @@ async function login(req, res) {
     const newRefreshToken = jwt.sign(
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: "1d" }
+      { expiresIn: "10s" }
     );
 
     // Changed to let keyword
@@ -71,7 +71,7 @@ async function login(req, res) {
       httpOnly: true,
       secure: true,
       sameSite: "None",
-      maxAge: 24 * 60 * 60 * 1000,
+      maxAge: REFRESH_TOKEN_EXPIRE_TIME,
     });
 
     // res.headers({ "access-control-expose-headers": "Set-Cookie" });

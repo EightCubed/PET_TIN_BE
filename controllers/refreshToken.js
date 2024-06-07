@@ -65,13 +65,13 @@ const refreshToken = async (req, res) => {
           },
         },
         process.env.ACCESS_TOKEN_SECRET,
-        { expiresIn: "10s" }
+        { expiresIn: BEARER_TOKEN_EXPIRES }
       );
 
       const newRefreshToken = jwt.sign(
         { username: foundUser.username },
         process.env.REFRESH_TOKEN_SECRET,
-        { expiresIn: "1d" }
+        { expiresIn: REFRESH_TOKEN_EXPIRES }
       );
 
       // Saving refreshToken with current user
@@ -86,7 +86,7 @@ const refreshToken = async (req, res) => {
         httpOnly: true,
         secure: true,
         sameSite: "None",
-        maxAge: 24 * 60 * 60 * 1000,
+        maxAge: REFRESH_TOKEN_EXPIRE_TIME,
       });
 
       res.json({ roles, accessToken });
