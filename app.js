@@ -1,8 +1,14 @@
+const https = require("https");
+const fs = require("fs");
 const express = require("express");
 const cors = require("cors");
+const cookieParser = require("cookie-parser");
 const path = require("path"); // Make sure to import path for handling 404 page
 const { register } = require("./controllers/register");
 const { login } = require("./controllers/login");
+const { logout } = require("./controllers/logout");
+const { refreshToken } = require("./controllers/refreshToken");
+const verifyJWT = require("./middleware/verifyJWT");
 const { addPet } = require("./controllers/api/addPet");
 const { listPets } = require("./controllers/api/listPet");
 const { client } = require("./constants/client");
@@ -14,19 +20,31 @@ require("dotenv").config();
 const app = express();
 
 app.use(express.json());
-
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://localhost:5173",
+    credentials: true,
   })
 );
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Expose-Headers", "Set-Cookie");
+  next();
+});
+
+const options = {
+  key: fs.readFileSync("localhost.key"),
+  cert: fs.readFileSync("localhost.crt"),
+};
 
 async function run() {
   console.log("Starting the server...");
   try {
     connectDB();
 
-    app.listen(3000, function () {
+    https.createServer(options, app).listen(3000, function () {
       appLogger.info("\nServer is listening on port 3000!");
     });
 
@@ -36,10 +54,16 @@ async function run() {
 
     app.post("/api/register", register);
     app.post("/api/login", login);
+    app.post("/api/logout", logout);
+    app.post("/api/refreshToken", refreshToken);
+
+    app.use(verifyJWT);
+    console.log("passed JWT verification");
     app.get("/api/listPets", listPets);
     app.put("/api/addPet", addPet);
 
     app.all("*", (req, res) => {
+      console.log("error!");
       res.status(404);
       appLogger.error("\n404 Error", req.body);
       if (req.accepts("html")) {

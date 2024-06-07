@@ -1,7 +1,8 @@
 const User = require("../model/User");
 const jwt = require("jsonwebtoken");
+const { appLogger } = require("../config/logger");
 
-const handleRefreshToken = async (req, res) => {
+const refreshToken = async (req, res) => {
   const cookies = req.cookies;
   if (!cookies?.jwt) return res.sendStatus(401);
   const refreshToken = cookies.jwt;
@@ -23,6 +24,7 @@ const handleRefreshToken = async (req, res) => {
         hackedUser.refreshToken = [];
         const result = await hackedUser.save();
         console.log(result);
+        appLogger.fatal("Detected refresh token reuse!", hackedUser);
       }
     );
     return res.sendStatus(403); //Forbidden
@@ -43,11 +45,12 @@ const handleRefreshToken = async (req, res) => {
         const result = await foundUser.save();
         console.log(result);
       }
+
       if (err || foundUser.username !== decoded.username)
         return res.sendStatus(403);
 
       // Refresh token was still valid
-      const roles = Object.values(foundUser.roles);
+      const roles = Object.values(foundUser.roles).filter((role) => role);
       const accessToken = jwt.sign(
         {
           UserInfo: {
@@ -81,4 +84,4 @@ const handleRefreshToken = async (req, res) => {
   );
 };
 
-module.exports = { handleRefreshToken };
+module.exports = { refreshToken };

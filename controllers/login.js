@@ -4,9 +4,7 @@ const jwt = require("jsonwebtoken");
 
 async function login(req, res) {
   const cookies = req.cookies;
-  console.log(`cookie available at login: ${JSON.stringify(cookies)}`);
-  const { user, pwd } = req.body.data;
-  console.log(req.body.data);
+  const { user, pwd } = req.body;
   if (!user || !pwd)
     return res
       .status(400)
@@ -67,8 +65,6 @@ async function login(req, res) {
     // Saving refreshToken with current user
     foundUser.refreshToken = [...newRefreshTokenArray, newRefreshToken];
     const result = await foundUser.save();
-    console.log(result);
-    console.log(roles);
 
     // Creates Secure Cookie with refresh token
     res.cookie("jwt", newRefreshToken, {
@@ -77,6 +73,8 @@ async function login(req, res) {
       sameSite: "None",
       maxAge: 24 * 60 * 60 * 1000,
     });
+
+    // res.headers({ "access-control-expose-headers": "Set-Cookie" });
 
     // Send authorization roles and access token to user
     res.json({ roles, accessToken });
