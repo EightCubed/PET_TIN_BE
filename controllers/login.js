@@ -1,6 +1,11 @@
 const User = require("../model/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const {
+  BEARER_TOKEN_EXPIRES,
+  REFRESH_TOKEN_EXPIRES,
+  REFRESH_TOKEN_EXPIRE_TIME,
+} = require("../constants/client");
 
 async function login(req, res) {
   const cookies = req.cookies;
@@ -25,12 +30,12 @@ async function login(req, res) {
         },
       },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "10s" }
+      { expiresIn: BEARER_TOKEN_EXPIRES }
     );
     const newRefreshToken = jwt.sign(
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: "10s" }
+      { expiresIn: REFRESH_TOKEN_EXPIRES }
     );
 
     // Changed to let keyword

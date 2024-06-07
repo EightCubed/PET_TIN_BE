@@ -1,6 +1,11 @@
 const User = require("../model/User");
 const jwt = require("jsonwebtoken");
 const { appLogger } = require("../config/logger");
+const {
+  BEARER_TOKEN_EXPIRES,
+  REFRESH_TOKEN_EXPIRES,
+  REFRESH_TOKEN_EXPIRE_TIME,
+} = require("../constants/client");
 
 const refreshToken = async (req, res) => {
   const cookies = req.cookies;
