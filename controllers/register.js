@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 require("dotenv").config();
 
 async function register(req, res) {
-  const { user, pwd } = req.body;
+  const { user, pwd } = req.body.data;
   if (!user || !pwd)
     return res
       .status(400)

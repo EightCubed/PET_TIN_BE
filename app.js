@@ -44,8 +44,8 @@ async function run() {
   try {
     connectDB();
 
-    https.createServer(options, app).listen(3000, function () {
-      appLogger.info("\nServer is listening on port 3000!");
+    https.createServer(options, app).listen(443, function () {
+      appLogger.info("\nServer is listening on port 443!");
     });
 
     appLogger.info("\nAttempting to connect to the database...");

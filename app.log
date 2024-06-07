@@ -683,3 +683,63 @@
 {"startTime":"2024-06-07T12:42:40.573Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
 {"startTime":"2024-06-07T12:42:40.575Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
 {"startTime":"2024-06-07T12:42:43.576Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:11:55.489Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:11:55.490Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:11:58.564Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:11:58.565Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:12:00.464Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:45:50.171Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:45:50.172Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:45:51.965Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:46:51.840Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:46:51.841Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:46:53.456Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:47:44.362Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:47:44.363Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:47:44.800Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:50:15.429Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:50:15.431Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 3000!"}
+{"startTime":"2024-06-07T13:50:16.915Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T13:51:02.070Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T13:51:02.072Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T13:51:03.523Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:00:48.395Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:00:48.397Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:00:49.931Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:01:47.448Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:01:47.450Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:01:48.904Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:03:07.846Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:03:07.847Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:03:09.372Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:03:21.241Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:03:21.243Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:03:22.722Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:04:30.360Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:04:30.361Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:04:31.944Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:06:45.620Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:06:45.622Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:06:47.173Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:07:30.816Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:07:30.818Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:07:32.306Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:16:30.906Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:16:30.907Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:16:32.412Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T14:20:57.679Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T14:20:57.681Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T14:20:59.185Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
+{"startTime":"2024-06-07T15:25:46.044Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzE3NzczOTQ1LCJleHAiOjE3MTc4NjAzNDV9.1OkfCAmfUsOqtyOb3HXz3kcKNQfQ5C33ZRaTFh8jcUg"],"__v":7}}
+{"startTime":"2024-06-07T15:26:42.159Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzE3Nzc0MDAyLCJleHAiOjE3MTc4NjA0MDJ9.lMfnSdAazIYQ9JaST_d2fJBytYYcj5kSRmpKlApTWkc"],"__v":8}}
+{"startTime":"2024-06-07T15:28:15.014Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzE3Nzc0MDk0LCJleHAiOjE3MTc4NjA0OTR9.ABw5WgCvtZPZKY24GTthFuflRTaL2EDVDundy3hU9A0"],"__v":9}}
+{"startTime":"2024-06-07T15:28:15.119Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":[],"__v":9}}
+{"startTime":"2024-06-07T15:28:15.121Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":[],"__v":9}}
+{"startTime":"2024-06-07T15:31:43.639Z","categoryName":"app","level":"FATAL","data":"Detected refresh token reuse!","$__":{"activePaths":{"paths":{"password":"init","username":"init","roles.User":"init","refreshToken":"init","_id":"init","__v":"init"},"states":{"require":{},"default":{},"init":{"_id":true,"username":true,"roles.User":true,"password":true,"refreshToken":true,"__v":true}}},"skipId":true},"$isNew":false,"_doc":{"roles":{"User":2001},"_id":"666314246b856bb152abdb42","username":"admin","password":"$2b$10$zwgxpSz1rUqaANnnD121n.v8i/pqPtpZ8Di7pHiQQXKv4S7VOk56i","refreshToken":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzE3Nzc0MzAzLCJleHAiOjE3MTc4NjA3MDN9.JJcATw16-FmdU_N59d0HfRM-GWMCmnv4QbiHZk_Ls-w"],"__v":10}}
+{"startTime":"2024-06-07T15:33:17.155Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T15:33:17.157Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T15:33:18.473Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T15:33:18.474Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T15:33:19.053Z","categoryName":"app","level":"INFO","data":"\nAttempting to connect to the database..."}
+{"startTime":"2024-06-07T15:33:19.055Z","categoryName":"app","level":"INFO","data":"\nServer is listening on port 443!"}
+{"startTime":"2024-06-07T15:33:20.560Z","categoryName":"app","level":"INFO","data":"\nConnected to the database"}
