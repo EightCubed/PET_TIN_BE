@@ -3,13 +3,16 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const {
   BEARER_TOKEN_EXPIRES,
-  REFRESH_TOKEN_EXPIRES,
-  REFRESH_TOKEN_EXPIRE_TIME,
+  REFRESH_TOKEN_EXPIRES_SHORT,
+  REFRESH_TOKEN_EXPIRES_LONG,
+  REFRESH_TOKEN_EXPIRE_TIME_SHORT,
+  REFRESH_TOKEN_EXPIRE_TIME_LONG,
 } = require("../constants/client");
 
 async function login(req, res) {
   const cookies = req.cookies;
-  const { user, pwd } = req.body;
+  const { user, pwd, rememberMe } = req.body;
+  console.log(rememberMe);
   if (!user || !pwd)
     return res
       .status(400)
@@ -35,7 +38,11 @@ async function login(req, res) {
     const newRefreshToken = jwt.sign(
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: REFRESH_TOKEN_EXPIRES }
+      {
+        expiresIn: rememberMe
+          ? REFRESH_TOKEN_EXPIRES_LONG
+          : REFRESH_TOKEN_EXPIRES_SHORT,
+      }
     );
 
     // Changed to let keyword
@@ -76,12 +83,21 @@ async function login(req, res) {
       httpOnly: true,
       secure: true,
       sameSite: "None",
-      maxAge: REFRESH_TOKEN_EXPIRE_TIME,
+      maxAge: rememberMe
+        ? REFRESH_TOKEN_EXPIRE_TIME_LONG
+        : REFRESH_TOKEN_EXPIRE_TIME_SHORT,
     });
 
-    // res.headers({ "access-control-expose-headers": "Set-Cookie" });
+    if (rememberMe)
+      res.cookie("rememberMe", true, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: rememberMe
+          ? REFRESH_TOKEN_EXPIRE_TIME_LONG
+          : REFRESH_TOKEN_EXPIRE_TIME_SHORT,
+      });
 
-    // Send authorization roles and access token to user
     res.json({ roles, accessToken });
   } else {
     res.sendStatus(401);

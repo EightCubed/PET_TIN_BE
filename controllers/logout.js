@@ -22,6 +22,11 @@ const logout = async (req, res) => {
   console.log(result);
 
   res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
+  res.clearCookie("rememberMe", {
+    httpOnly: true,
+    sameSite: "None",
+    secure: true,
+  });
   res.sendStatus(204);
 };
 

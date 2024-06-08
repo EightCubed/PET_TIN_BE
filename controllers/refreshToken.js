@@ -3,8 +3,10 @@ const jwt = require("jsonwebtoken");
 const { appLogger } = require("../config/logger");
 const {
   BEARER_TOKEN_EXPIRES,
-  REFRESH_TOKEN_EXPIRES,
-  REFRESH_TOKEN_EXPIRE_TIME,
+  REFRESH_TOKEN_EXPIRES_SHORT,
+  REFRESH_TOKEN_EXPIRES_LONG,
+  REFRESH_TOKEN_EXPIRE_TIME_SHORT,
+  REFRESH_TOKEN_EXPIRE_TIME_LONG,
 } = require("../constants/client");
 
 const refreshToken = async (req, res) => {
@@ -73,10 +75,15 @@ const refreshToken = async (req, res) => {
         { expiresIn: BEARER_TOKEN_EXPIRES }
       );
 
+      const rememberMe = cookies?.rememberMe;
       const newRefreshToken = jwt.sign(
         { username: foundUser.username },
         process.env.REFRESH_TOKEN_SECRET,
-        { expiresIn: REFRESH_TOKEN_EXPIRES }
+        {
+          expiresIn: rememberMe
+            ? REFRESH_TOKEN_EXPIRES_LONG
+            : REFRESH_TOKEN_EXPIRES_SHORT,
+        }
       );
 
       // Saving refreshToken with current user
@@ -91,7 +98,9 @@ const refreshToken = async (req, res) => {
         httpOnly: true,
         secure: true,
         sameSite: "None",
-        maxAge: REFRESH_TOKEN_EXPIRE_TIME,
+        maxAge: rememberMe
+          ? REFRESH_TOKEN_EXPIRE_TIME_LONG
+          : REFRESH_TOKEN_EXPIRE_TIME_SHORT,
       });
 
       res.json({ roles, accessToken });
