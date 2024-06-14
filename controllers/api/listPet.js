@@ -6,7 +6,7 @@ require("dotenv").config();
 async function listPets(_, res) {
   try {
     const pets = await Pet.find();
-    res.status(200).json(pets);
+    res.status(200).json({ data: pets });
   } catch (error) {
     console.error("Error fetching pets:", error);
     appLogger.error("Error fetching pets:", error);

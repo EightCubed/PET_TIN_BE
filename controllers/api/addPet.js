@@ -13,7 +13,7 @@ async function addPet(req, res) {
       Species,
       Breed,
       EmailId,
-    } = req.body;
+    } = req.body.data;
 
     if (
       !PetName ||
@@ -26,7 +26,7 @@ async function addPet(req, res) {
       !Breed ||
       !EmailId
     ) {
-      console.log(req.body);
+      console.log(req.body.data);
       return res.status(400).json({ error: "All fields are required" });
     }
 

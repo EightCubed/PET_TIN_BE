@@ -12,7 +12,13 @@ const {
 async function login(req, res) {
   const cookies = req.cookies;
   const { user, pwd, rememberMe } = req.body;
-  console.log(rememberMe);
+  let rememberMeVal = Boolean(rememberMe | (cookies?.rememberMe === "true"));
+  const REFRESH_TOKEN_EXPIRES = rememberMeVal
+    ? REFRESH_TOKEN_EXPIRES_LONG
+    : REFRESH_TOKEN_EXPIRES_SHORT;
+  const REFRESH_TOKEN_EXPIRES_TIME = rememberMeVal
+    ? REFRESH_TOKEN_EXPIRE_TIME_LONG
+    : REFRESH_TOKEN_EXPIRE_TIME_SHORT;
   if (!user || !pwd)
     return res
       .status(400)
@@ -39,9 +45,7 @@ async function login(req, res) {
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
       {
-        expiresIn: rememberMe
-          ? REFRESH_TOKEN_EXPIRES_LONG
-          : REFRESH_TOKEN_EXPIRES_SHORT,
+        expiresIn: REFRESH_TOKEN_EXPIRES,
       }
     );
 
@@ -83,19 +87,15 @@ async function login(req, res) {
       httpOnly: true,
       secure: true,
       sameSite: "None",
-      maxAge: rememberMe
-        ? REFRESH_TOKEN_EXPIRE_TIME_LONG
-        : REFRESH_TOKEN_EXPIRE_TIME_SHORT,
+      maxAge: REFRESH_TOKEN_EXPIRES_TIME,
     });
 
-    if (rememberMe)
+    if (rememberMeVal)
       res.cookie("rememberMe", true, {
         httpOnly: true,
         secure: true,
         sameSite: "None",
-        maxAge: rememberMe
-          ? REFRESH_TOKEN_EXPIRE_TIME_LONG
-          : REFRESH_TOKEN_EXPIRE_TIME_SHORT,
+        maxAge: REFRESH_TOKEN_EXPIRES_TIME,
       });
 
     res.json({ roles, accessToken });
