@@ -35,6 +35,7 @@ async function login(req, res) {
       {
         UserInfo: {
           username: foundUser.username,
+          emailId: foundUser.emailId,
           roles: roles,
         },
       },

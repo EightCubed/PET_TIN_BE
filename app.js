@@ -11,6 +11,8 @@ const { refreshToken } = require("./controllers/refreshToken");
 const verifyJWT = require("./middleware/verifyJWT");
 const { addPet } = require("./controllers/api/addPet");
 const { listPets } = require("./controllers/api/listPet");
+const { getPet } = require("./controllers/api/getPet");
+const { toggleLikePet } = require("./controllers/api/toggleLikePet");
 const { client } = require("./constants/client");
 const { appLogger } = require("./config/logger");
 const connectDB = require("./config/dbConn");
@@ -60,7 +62,9 @@ async function run() {
     app.use(verifyJWT);
     console.log("passed JWT verification");
     app.get("/api/listPets", listPets);
+    app.get("/api/getPet/:id", getPet);
     app.put("/api/addPet", addPet);
+    app.post("/api/likePet", toggleLikePet);
 
     app.all("*", (req, res) => {
       console.log("error!");

@@ -71,6 +71,7 @@ const petSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  likedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
 });
 
 // Create the Pet model
