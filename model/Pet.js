@@ -1,24 +1,5 @@
 const mongoose = require("mongoose");
 
-const ownerSchema = new mongoose.Schema({
-  First: {
-    type: String,
-    required: true,
-  },
-  Last: {
-    type: String,
-    required: true,
-  },
-  Age: {
-    type: Number,
-    required: true,
-  },
-  Gender: {
-    type: String,
-    required: true,
-  },
-});
-
 const locationSchema = new mongoose.Schema({
   City: {
     type: String,
@@ -48,7 +29,8 @@ const petSchema = new mongoose.Schema({
     required: true,
   },
   Owner: {
-    type: ownerSchema,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "OwnerId",
     required: true,
   },
   Location: {
@@ -57,7 +39,7 @@ const petSchema = new mongoose.Schema({
   },
   ImageUrl: {
     type: String,
-    required: true,
+    // required: true,
   },
   Species: {
     type: String,
@@ -68,6 +50,10 @@ const petSchema = new mongoose.Schema({
     required: true,
   },
   EmailId: {
+    type: String,
+    // required: true,
+  },
+  Description: {
     type: String,
     required: true,
   },

@@ -1,45 +1,34 @@
 const Pet = require("../../model/Pet");
 const { appLogger } = require("../../config/logger");
+const { v4: uuidv4 } = require("uuid");
+const { fetchUser } = require("../../template/fetchUser");
 
 async function addPet(req, res) {
   try {
-    const {
-      PetName,
-      Age,
-      Gender,
-      Owner,
-      Location,
-      ImageUrl,
-      Species,
-      Breed,
-      EmailId,
-    } = req.body.data;
+    const { petDetails, userId, petLocationDetails } = req.body;
 
-    if (
-      !PetName ||
-      !Age ||
-      !Gender ||
-      !Owner ||
-      !Location ||
-      !ImageUrl ||
-      !Species ||
-      !Breed ||
-      !EmailId
-    ) {
-      console.log(req.body.data);
-      return res.status(400).json({ error: "All fields are required" });
-    }
+    const { petName, petAge, petGender, petSpecies, petBreed, description } =
+      petDetails;
+
+    const { city, state, country } = petLocationDetails;
+
+    const OwnerDetails = await fetchUser(userId);
 
     const newPet = new Pet({
-      PetName,
-      Age,
-      Gender,
-      Owner,
-      Location,
-      ImageUrl,
-      Species,
-      Breed,
-      EmailId,
+      PetName: petName,
+      Age: petAge,
+      Gender: petGender,
+      Species: petSpecies,
+      Breed: petBreed,
+      Owner: userId,
+      Location: {
+        City: city,
+        State: state,
+        Country: country,
+      },
+      ImageUrl: "",
+      EmailId: "",
+      Description: description,
     });
 
     await newPet.save();
@@ -47,7 +36,7 @@ async function addPet(req, res) {
     appLogger.info("New pet added successfully", newPet);
 
     // Send response
-    res.status(201).json(newPet);
+    res.status(201).json({});
   } catch (error) {
     appLogger.error("Error adding pet:", error);
     res

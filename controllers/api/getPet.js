@@ -32,6 +32,12 @@ async function getPet(req, res) {
       likedBy: undefined, // Remove likedBy field
       numberOfLikes: pet.likedBy.length,
       isLikedByUser,
+      OwnerDetails: {
+        FirstName: foundUser.firstName,
+        LastName: foundUser.lastName,
+        Age: foundUser.age,
+        Gender: foundUser.gender,
+      },
     });
   } catch (error) {
     console.error("Error fetching pets:", error);

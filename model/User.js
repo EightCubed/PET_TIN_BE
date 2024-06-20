@@ -22,6 +22,18 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  firstName: {
+    type: String,
+  },
+  lastName: {
+    type: String,
+  },
+  gender: {
+    type: String,
+  },
+  age: {
+    type: String,
+  },
   refreshToken: [String],
 });
 

@@ -25,8 +25,7 @@ async function login(req, res) {
       .json({ message: "Username and password are required." });
 
   const foundUser = await User.findOne({ username: user }).exec();
-  if (!foundUser) return res.sendStatus(401); //Unauthorized
-  // evaluate password
+  if (!foundUser) return res.sendStatus(401);
   const match = await bcrypt.compare(pwd, foundUser.password);
   if (match) {
     const roles = Object.values(foundUser.roles).filter(Boolean);
@@ -99,7 +98,9 @@ async function login(req, res) {
         maxAge: REFRESH_TOKEN_EXPIRES_TIME,
       });
 
-    res.json({ roles, accessToken });
+    const { _id, username } = foundUser;
+
+    res.json({ roles, accessToken, username, _id });
   } else {
     res.sendStatus(401);
   }
