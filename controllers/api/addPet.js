@@ -10,7 +10,11 @@ async function addPet(req, res) {
     const { petName, petAge, petGender, petSpecies, petBreed, description } =
       petDetails;
 
-    const { city, state, country } = petLocationDetails;
+    const {
+      city: { name: cityName },
+      state: { name: stateName },
+      country: { name: countryName },
+    } = petLocationDetails;
 
     const OwnerDetails = await fetchUser(userId);
 
@@ -22,9 +26,9 @@ async function addPet(req, res) {
       Breed: petBreed,
       Owner: userId,
       Location: {
-        City: city,
-        State: state,
-        Country: country,
+        City: cityName,
+        State: stateName,
+        Country: countryName,
       },
       ImageUrl: "",
       EmailId: "",

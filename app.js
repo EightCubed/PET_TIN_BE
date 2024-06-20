@@ -8,6 +8,7 @@ const { register } = require("./controllers/register");
 const { login } = require("./controllers/login");
 const { logout } = require("./controllers/logout");
 const { refreshToken } = require("./controllers/refreshToken");
+const { fetchLocationData } = require("./controllers/fetchLocationData");
 const verifyJWT = require("./middleware/verifyJWT");
 const { addPet } = require("./controllers/api/addPet");
 const { listPets } = require("./controllers/api/listPet");
@@ -61,6 +62,7 @@ async function run() {
     app.post("/api/login", login);
     app.post("/api/logout", logout);
     app.post("/api/refreshToken", refreshToken);
+    app.get("/api/fetchLocationData", fetchLocationData);
 
     app.use(verifyJWT);
     console.log("passed JWT verification");
