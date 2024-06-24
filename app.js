@@ -3,7 +3,7 @@ const fs = require("fs");
 const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-const path = require("path"); // Make sure to import path for handling 404 page
+const path = require("path");
 const { register } = require("./controllers/register");
 const { login } = require("./controllers/login");
 const { logout } = require("./controllers/logout");
@@ -11,8 +11,10 @@ const { refreshToken } = require("./controllers/refreshToken");
 const { fetchLocationData } = require("./controllers/fetchLocationData");
 const verifyJWT = require("./middleware/verifyJWT");
 const { addPet } = require("./controllers/api/addPet");
+const { addPetPictures } = require("./controllers/api/addPetPictures");
 const { listPets } = require("./controllers/api/listPet");
 const { getPet } = require("./controllers/api/getPet");
+const { deletePet } = require("./controllers/api/deletePet");
 const { getUser } = require("./controllers/api/getUser");
 const { updateUser } = require("./controllers/api/updateUser");
 const { toggleLikePet } = require("./controllers/api/toggleLikePet");
@@ -20,6 +22,7 @@ const { getLikedPetsByUser } = require("./controllers/api/likedByUserPets");
 const { client } = require("./constants/client");
 const { appLogger } = require("./config/logger");
 const connectDB = require("./config/dbConn");
+const multer = require("multer");
 
 require("dotenv").config();
 
@@ -45,6 +48,27 @@ const options = {
   cert: fs.readFileSync("localhost.crt"),
 };
 
+function delayMiddleware(req, res, next) {
+  const delay = 2000;
+  setTimeout(() => {
+    next();
+  }, delay);
+}
+
+// app.use(delayMiddleware);
+
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, "uploads/"); // Directory to save the uploaded files
+  },
+  filename: function (req, file, cb) {
+    console.log(req.params.id);
+    cb(null, req.params.id + "-" + Date.now() + "-" + file.originalname); // Unique filename
+  },
+});
+
+const upload = multer({ storage: storage });
+
 async function run() {
   console.log("Starting the server...");
   try {
@@ -64,12 +88,15 @@ async function run() {
     app.post("/api/refreshToken", refreshToken);
     app.get("/api/fetchLocationData", fetchLocationData);
 
+    app.use("/uploads", express.static(path.join(__dirname, "uploads")));
     app.use(verifyJWT);
     console.log("passed JWT verification");
     app.get("/api/listPets", listPets);
     app.get("/api/getPet/:id", getPet);
+    app.delete("/api/getPet/:id", deletePet);
     app.get("/api/getLikedPets", getLikedPetsByUser);
     app.put("/api/addPet", addPet);
+    app.put("/api/addPetPictures/:id", upload.any("files"), addPetPictures);
     app.get("/api/getUser/:id", getUser);
     app.patch("/api/getUser/:id", updateUser);
     app.post("/api/likePet", toggleLikePet);
@@ -91,7 +118,6 @@ async function run() {
     console.error(err.stack);
     process.exit(1); // Exit the process with a failure code
   } finally {
-    // Uncomment if you want to close the connection after server stops
     // console.log("Connection Closing ...");
     // await client.close();
   }

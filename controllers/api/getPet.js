@@ -2,6 +2,7 @@ const { appLogger } = require("../../config/logger");
 const Pet = require("../../model/Pet");
 const User = require("../../model/User");
 const mongoose = require("mongoose");
+const { searchInFile } = require("../../template/fetchImage");
 
 require("dotenv").config();
 
@@ -25,11 +26,13 @@ async function getPet(req, res) {
       return res.status(404).json({ error: "Pet not found" });
     }
 
+    const ImageArray = await searchInFile("../uploads/", pet.ImageUrl ?? "");
+
     const isLikedByUser = pet.likedBy.some((id) => id.equals(foundUser._id));
 
     res.status(200).json({
       ...pet.toObject(),
-      likedBy: undefined, // Remove likedBy field
+      likedBy: undefined,
       numberOfLikes: pet.likedBy.length,
       isLikedByUser,
       OwnerDetails: {
@@ -38,6 +41,7 @@ async function getPet(req, res) {
         Age: foundUser.age,
         Gender: foundUser.gender,
       },
+      ImageArray,
     });
   } catch (error) {
     console.error("Error fetching pets:", error);

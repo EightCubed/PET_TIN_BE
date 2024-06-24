@@ -16,7 +16,7 @@ async function addPet(req, res) {
       country: { name: countryName },
     } = petLocationDetails;
 
-    const OwnerDetails = await fetchUser(userId);
+    const responseID = uuidv4();
 
     const newPet = new Pet({
       PetName: petName,
@@ -30,7 +30,7 @@ async function addPet(req, res) {
         State: stateName,
         Country: countryName,
       },
-      ImageUrl: "",
+      ImageUrl: responseID,
       EmailId: "",
       Description: description,
     });
@@ -39,8 +39,7 @@ async function addPet(req, res) {
 
     appLogger.info("New pet added successfully", newPet);
 
-    // Send response
-    res.status(201).json({});
+    res.status(201).json({ responseID });
   } catch (error) {
     appLogger.error("Error adding pet:", error);
     res
