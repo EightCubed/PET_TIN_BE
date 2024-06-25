@@ -7,7 +7,6 @@ require("dotenv").config();
 
 async function listPetsByUser(req, res) {
   try {
-    console.log(req.params);
     const pets = await Pet.find({ Owner: req.params.id });
 
     const cookies = req.cookies;

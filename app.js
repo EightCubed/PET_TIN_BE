@@ -63,7 +63,6 @@ const storage = multer.diskStorage({
     cb(null, "uploads/"); // Directory to save the uploaded files
   },
   filename: function (req, file, cb) {
-    console.log(req.params.id);
     cb(null, req.params.id + "-" + Date.now() + "-" + file.originalname); // Unique filename
   },
 });
@@ -104,7 +103,7 @@ async function run() {
     app.post("/api/likePet", toggleLikePet);
 
     app.all("*", (req, res) => {
-      console.log("error!");
+      console.error("error!");
       res.status(404);
       appLogger.error("\n404 Error", req.body);
       if (req.accepts("html")) {

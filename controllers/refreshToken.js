@@ -23,7 +23,7 @@ const refreshToken = async (req, res) => {
       process.env.REFRESH_TOKEN_SECRET,
       async (err, decoded) => {
         if (err) return res.sendStatus(403); // Forbidden
-        console.log("attempted refresh token reuse!");
+        console.error("attempted refresh token reuse!");
         const hackedUser = await User.findOne({
           username: decoded.username,
         }).exec();
@@ -50,7 +50,7 @@ const refreshToken = async (req, res) => {
     process.env.REFRESH_TOKEN_SECRET,
     async (err, decoded) => {
       if (err) {
-        console.log("expired refresh token");
+        console.error("expired refresh token");
         await User.findOneAndUpdate(
           { _id: foundUser._id },
           { $set: { refreshToken: newRefreshTokenArray } },
