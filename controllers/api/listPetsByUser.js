@@ -5,9 +5,10 @@ const { searchInFile } = require("../../template/fetchImage");
 
 require("dotenv").config();
 
-async function listPets(req, res) {
+async function listPetsByUser(req, res) {
   try {
-    const pets = await Pet.find();
+    console.log(req.params);
+    const pets = await Pet.find({ Owner: req.params.id });
 
     const cookies = req.cookies;
     if (!cookies?.jwt) {
@@ -38,6 +39,8 @@ async function listPets(req, res) {
           numberOfLikes,
           isLikedByUser,
           ImageArray,
+          isEditable: true,
+          isDeletable: true,
         };
       })
     );
@@ -51,5 +54,5 @@ async function listPets(req, res) {
 }
 
 module.exports = {
-  listPets,
+  listPetsByUser,
 };

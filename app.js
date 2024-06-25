@@ -13,6 +13,7 @@ const verifyJWT = require("./middleware/verifyJWT");
 const { addPet } = require("./controllers/api/addPet");
 const { addPetPictures } = require("./controllers/api/addPetPictures");
 const { listPets } = require("./controllers/api/listPet");
+const { listPetsByUser } = require("./controllers/api/listPetsByUser");
 const { getPet } = require("./controllers/api/getPet");
 const { deletePet } = require("./controllers/api/deletePet");
 const { getUser } = require("./controllers/api/getUser");
@@ -92,8 +93,9 @@ async function run() {
     app.use(verifyJWT);
     console.log("passed JWT verification");
     app.get("/api/listPets", listPets);
+    app.get("/api/listPets/:id", listPetsByUser);
     app.get("/api/getPet/:id", getPet);
-    app.delete("/api/getPet/:id", deletePet);
+    app.delete("/api/deletePet/:id", deletePet);
     app.get("/api/getLikedPets", getLikedPetsByUser);
     app.put("/api/addPet", addPet);
     app.put("/api/addPetPictures/:id", upload.any("files"), addPetPictures);

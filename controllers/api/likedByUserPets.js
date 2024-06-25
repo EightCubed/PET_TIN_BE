@@ -1,5 +1,6 @@
 const Pet = require("../../model/Pet");
 const User = require("../../model/User");
+const { searchInFile } = require("../../template/fetchImage");
 
 const getLikedPetsByUser = async (req, res) => {
   try {
@@ -14,19 +15,26 @@ const getLikedPetsByUser = async (req, res) => {
 
     const likedPets = await Pet.find({ likedBy: foundUser._id }).exec();
 
-    const modifiedPetList = likedPets.map((pet) => {
-      const petObject = pet.toObject();
-      const numberOfLikes = petObject.likedBy.length;
-      const isLikedByUser = petObject.likedBy.some(
-        (likedByObj) => likedByObj.toString() === foundUser._id.toString()
-      );
-      delete petObject.likedBy;
-      return {
-        ...petObject,
-        numberOfLikes,
-        isLikedByUser,
-      };
-    });
+    const modifiedPetList = await Promise.all(
+      likedPets.map(async (pet) => {
+        const ImageArray = await searchInFile(
+          "../uploads/",
+          pet.ImageUrl ?? ""
+        );
+        const petObject = pet.toObject();
+        const numberOfLikes = petObject.likedBy.length;
+        const isLikedByUser = petObject.likedBy.some(
+          (likedByObj) => likedByObj.toString() === foundUser._id.toString()
+        );
+        delete petObject.likedBy;
+        return {
+          ...petObject,
+          numberOfLikes,
+          isLikedByUser,
+          ImageArray,
+        };
+      })
+    );
 
     res.status(200).json({ data: modifiedPetList });
   } catch (error) {
