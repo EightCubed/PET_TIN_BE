@@ -24,6 +24,7 @@ const { client } = require("./constants/client");
 const { appLogger } = require("./config/logger");
 const connectDB = require("./config/dbConn");
 const multer = require("multer");
+const rateLimit = require("express-rate-limit");
 
 require("dotenv").config();
 
@@ -34,7 +35,7 @@ app.use(
   cors({
     origin: "https://localhost:5173",
     credentials: true,
-  })
+  }),
 );
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -44,10 +45,10 @@ app.use((req, res, next) => {
   next();
 });
 
-const options = {
-  key: fs.readFileSync("localhost.key"),
-  cert: fs.readFileSync("localhost.crt"),
-};
+// const options = {
+//   key: fs.readFileSync("localhost.key"),
+//   cert: fs.readFileSync("localhost.crt"),
+// };
 
 function delayMiddleware(req, res, next) {
   const delay = 2000;
@@ -56,7 +57,19 @@ function delayMiddleware(req, res, next) {
   }, delay);
 }
 
-// app.use(delayMiddleware);
+const userRateLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 200,
+  keyGenerator: (req) => {
+    return req.user ? req.user.id : req.ip;
+  },
+  handler: (_, res) => {
+    res.status(429).json({
+      message: "Too many requests, please slow down.",
+    });
+  },
+});
+app.use(userRateLimiter);
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -74,7 +87,7 @@ async function run() {
   try {
     connectDB();
 
-    https.createServer(options, app).listen(443, function () {
+    https.createServer({}, app).listen(443, function () {
       appLogger.info("\nServer is listening on port 443!");
     });
 
